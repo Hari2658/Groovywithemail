@@ -29,7 +29,6 @@ pipeline
                {
                    try
                        {
-                        input message: 'Need approval from DM!', submitter: 'sreekanth'
                         sh 'mvn package'
                        }
                          catch(Exception e2)
