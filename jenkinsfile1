@@ -67,7 +67,7 @@ pipeline
                    try
                        {
                          git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
-                         sh 'java -jar /home/ubuntu/.jenkins/workspace/DeclarativePipeline3/testing.jar'
+                         sh 'java -jar /home/ubuntu/.jenkins/workspace/DeclarativePipeline with email/testing.jar'
                        }
                          catch(Exception e4)
                             {
